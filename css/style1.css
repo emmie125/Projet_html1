@@ -1,0 +1,106 @@
+@font-face {
+    font-family : "Baskerville";
+    src: url("Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+
+body{
+    background:rgb(206, 201, 201);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family : "Baskerville",Arial, serif;
+    font-size: 60px;
+    font-weight: bolder;
+    
+    
+}
+h3{
+    font-family : "Baskerville",Arial, serif;
+    font-weight: bolder;  
+}
+h2{
+    color:rgb(201, 37, 37);
+    font-family : "Baskerville",Arial, serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#protocole
+{
+    border: 4px dashed rgb(72, 72, 177) ;
+    background: rgb(192, 192, 207);
+    color:  rgb(72, 72, 177);
+    font-weight:bold;
+    font-size: 18px;
+    padding: 15px;
+    line-height: 1.5em;
+    margin:0 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
+   
+
+}
+.lgcol{
+    font-weight: bold;
+}
+a {
+    color:rgb(201, 37, 37);
+    font-weight: bolder;
+    /*font-size: 60px*/;
+}
+.alignement
+{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#entete th{
+    background: rgb(66, 65, 65);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding: 8px 8px 8px 8px;
+}
+.lgclass 
+{
+    background:rgb(217, 223, 223) ;
+  
+}
+table{
+    border-collapse: collapse;
+}
+.lgclass,th,td 
+{
+    padding: 8px 8px 8px 8px;
+}
+figure{
+    border: 3px solid red;
+    border-radius: 1em;
+    width: 64em;
+   text-align: center;
+   
+   background:rgb(66, 65, 65);
+   color: blanchedalmond;
+   
+}
+figcaption
+{
+    font-size: 20px;
+    padding-bottom: 40px;
+    font-style: italic;
+    font-weight: bold;
+  
+}
+img
+{
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 5px;
+    margin-bottom: 20px;
+    width: 60em;
+    text-align: center;
+}
+tr:hover{
+    cursor: pointer;
+    background-color: rgb(128, 124, 124);
+}
