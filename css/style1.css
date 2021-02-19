@@ -1,11 +1,16 @@
-@font-face {
-    font-family : "Baskerville";
-    src: url("Libre_Baskerville/LibreBaskerville-Bold.ttf");
-}
 
+@font-face{
+    font-family:"Baskerville";
+    src: url("baskerville/Online_Web_Fonts.url");
+}
 body{
-    background:rgb(206, 201, 201);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #c8c8c8;;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main {
+    margin: auto;
+    width: 90vw;
 }
 h1{
     text-align: center;
@@ -17,34 +22,56 @@ h1{
 }
 h3{
     font-family : "Baskerville",Arial, serif;
+    color: #e5003e;
     font-weight: bolder;  
+    font-size: 35px;
 }
 h2{
-    color:rgb(201, 37, 37);
+    color:#e5003e;
     font-family : "Baskerville",Arial, serif;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 #protocole
 {
-    border: 4px dashed rgb(72, 72, 177) ;
-    background: rgb(192, 192, 207);
-    color:  rgb(72, 72, 177);
-    font-weight:bold;
+    border: 4px dashed #4e41ae;
+    background:#b7b7b7;
+    color: #4e41ae;
     font-size: 18px;
-    padding: 15px;
-    line-height: 1.5em;
-    margin:0 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
-   
-
+    font-weight:bold;
+    padding: 2.5% 2.5%;
+    margin-left: 3%;
+    line-height: 1.8em;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 88%;
+    margin-bottom: 5%;
+}
+/* #code
+{
+    padding: 0 auto;
+    margin-left: 3%;
+    width: 100%;
+    
+} */
+pre
+{
+    border: 4px dashed #4e41ae;
+    background:#b7b7b7;
+    color: #4e41ae;
+    font-size: 18px;
+    font-weight:bold;
+    padding: 2.5% 0;  
+    line-height: 1.8em;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin-bottom: 5%;
 }
 .lgcol{
     font-weight: bold;
 }
 a {
-    color:rgb(201, 37, 37);
+    color: #e5003e;
     font-weight: bolder;
     /*font-size: 60px*/;
 }
@@ -56,51 +83,55 @@ a {
 }
 
 #entete th{
-    background: rgb(66, 65, 65);
+    background:#333333;
     color: rgb(255, 255, 255);
     font-weight: bolder;
     padding: 8px 8px 8px 8px;
 }
-.lgclass 
+.lgclass
 {
-    background:rgb(217, 223, 223) ;
+    background:#dddddd;
   
 }
 table{
     border-collapse: collapse;
+    position: relative;
+   
 }
 .lgclass,th,td 
 {
     padding: 8px 8px 8px 8px;
 }
 figure{
-    border: 3px solid red;
+    background:#333333;
+    border: 3px solid #cf0025;
     border-radius: 1em;
-    width: 64em;
-   text-align: center;
-   
-   background:rgb(66, 65, 65);
-   color: blanchedalmond;
+    width:100%;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin-left: 0;
    
 }
 figcaption
 {
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 40px;
     font-style: italic;
     font-weight: bold;
-  
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 img
 {
-   margin-left: 5px;
-   margin-right: 5px;
-   margin-top: 5px;
-    margin-bottom: 20px;
-    width: 60em;
-    text-align: center;
+    display: block;
+    margin: auto;
+    width: 95%;
+   
+    
 }
 tr:hover{
     cursor: pointer;
-    background-color: rgb(128, 124, 124);
+    background-color:#999999;
 }
